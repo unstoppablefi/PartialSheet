@@ -121,7 +121,6 @@ struct PartialSheet: ViewModifier {
             // display the sheet content as a draggableSheet
             if deviceType == .iphone {
                 iPhoneSheet()
-                    .edgesIgnoringSafeArea(.vertical)
             }
         }
     }
